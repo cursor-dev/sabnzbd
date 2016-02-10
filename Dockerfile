@@ -17,7 +17,7 @@ RUN add-apt-repository -y  ppa:jcfp/ppa && \
 ADD start.sh /
 RUN chmod +x /start.sh
 
-VOLUME ["/volumes/config","/volumes/media","/volumes/media"]
+VOLUME ["/volumes/config","/volumes/media","/volumes/downloads"]
 
 EXPOSE 8080
 
